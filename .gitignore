@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data (keep structure, ignore large files)
+data/training/raw/*.csv
+data/training/processed/*
+data/submissions/*.csv
+data/checkpoints/*.pkl
+data/logs/*.log
+data/logs/*.json
+
+# But keep directory structure
+!data/training/raw/.gitkeep
+!data/training/processed/.gitkeep
+!data/submissions/.gitkeep
+!data/checkpoints/.gitkeep
+!data/logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp.txt
